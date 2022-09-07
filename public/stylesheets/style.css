@@ -3,23 +3,23 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-h2 {
+h3 {
 	margin:0 0 .5em 0;
 }
 
 a {
-  color: #00B7FF;
+  color: #0c4054;
 }
 
 #wrapper {
-	position:relative;
+	position:centre;
 }
 
 #trains {
 	top:0; left:0; margin-bottom:25px;
 	padding:15px;
-	border:1px solid #CCC;
-	background:rgba(80,120,255,0.05);
+	border:1px solid rgb(27, 144, 212);
+	background:rgba(255, 80, 98, 0.05);
 }
 
 #trainInfo {
@@ -43,13 +43,13 @@ a {
 			text-align:center;
 		}
 		#trainInfo table tbody {
-			padding:0; margin:0;
+			padding:10; margin:0;
 			border-collapse:collapse;
 			border-spacing:0px;
 		}
 			#trainInfo table td {
-				background:#FFF;
-				padding:5px 10px;
+				background:rgb(8, 127, 125);
+				padding:10px 10px;
 				text-align:center;
 			}
 
